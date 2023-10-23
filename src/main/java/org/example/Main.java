@@ -2,6 +2,7 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello Diana! ");
+        Dreptunghi dr1=new Dreptunghi(1,2);
+        System.out.println(dr1.calculperimetru());
     }
 }
