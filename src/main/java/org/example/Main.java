@@ -11,7 +11,7 @@ public class Main {
         //   System.out.println(dr1.arie);
 
         Cerc c1 = new Cerc(5);
-        System.out.println("Perimetru cerc " + c1.calculPerimetruFormaGeometrica());
+        System.out.println("Perimetru cerC " + c1.calculPerimetruFormaGeometrica());
         //  System.out.println(c1.arie);
 
     }
