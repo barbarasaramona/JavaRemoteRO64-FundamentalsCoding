@@ -1,4 +1,4 @@
-package org.example;
+package org.example.mastenire;
 
 public class Dreptunghi extends FormaGeometrica {
     private float lungime;
