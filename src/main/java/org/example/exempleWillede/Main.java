@@ -10,7 +10,7 @@ public class Main {
             }
 
         }
-        System.out.println(suma);
+        System.out.println(suma );
 
         int j = 1;
         suma = 0;
