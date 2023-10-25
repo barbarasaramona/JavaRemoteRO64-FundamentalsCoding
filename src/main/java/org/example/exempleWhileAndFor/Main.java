@@ -15,12 +15,41 @@ public class Main {
         int sumaCalculataCuWhile = 0;
         while (j <= 10) {
             sumaCalculataCuWhile = sumaCalculataCuWhile + j;
-            j += 1;
+            j++;
         }
         System.out.println("Suma numerelor de la 1 la 10 calculata cu while: " + sumaCalculataCuWhile);
 
         //TODO
         //Varianta DO WHILE
+
+        int cursor2 = 1;
+        int sumaCalculataCuDoWildeIMPare = 0;
+        do {
+            sumaCalculataCuDoWildeIMPare = sumaCalculataCuDoWildeIMPare + cursor2;
+            cursor2 += 2;
+        } while (cursor2 <= 10);
+        System.out.println("Suma cu DoWhilde Impare " + sumaCalculataCuDoWildeIMPare);
+
+        //
+
+        int cursor1 = 0;
+        int sumaCalculataCuDoWildePare = 0;
+        do {
+            sumaCalculataCuDoWildePare = sumaCalculataCuDoWildePare + cursor1;
+            cursor1 += 2;
+        } while (cursor1 <= 10);
+        System.out.println("Suma cu DoWhilde pare " + sumaCalculataCuDoWildePare);
+
+        // Suma cu Dowhile de la 1-10
+
+        int cursor = 0;
+        int sumaCalculataCuDoWilde = 0;
+        do {
+            sumaCalculataCuDoWilde = sumaCalculataCuDoWilde + cursor;
+            cursor++;
+        } while (cursor <= 10);
+        System.out.println("Suma cu DoWhilde " + sumaCalculataCuDoWilde);
+
 
         //Sa se calculeze suma numerelor pare de la 0 la 10
         //Varianta cu FOR
@@ -65,8 +94,6 @@ public class Main {
 
         //TODO
         //Varianta DO WHILE
-
-
 
 
     }

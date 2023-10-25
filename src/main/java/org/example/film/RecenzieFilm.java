@@ -5,6 +5,10 @@ public class RecenzieFilm {
     private String numeCritic;
     private double notaRating;
 
+    public double getNotaRating() {
+        return notaRating;
+    }
+
     @Override
     public String toString() {
         return "Recenzie{" +
