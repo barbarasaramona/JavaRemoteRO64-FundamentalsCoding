@@ -19,6 +19,9 @@ public class Main {
         }
         System.out.println("Suma numerelor de la 1 la 10 calculata cu while: " + sumaCalculataCuWhile);
 
+        //TODO
+        //Varianta DO WHILE
+
         //Sa se calculeze suma numerelor pare de la 0 la 10
         //Varianta cu FOR
         int sumaNrPareCalculataCuFor = 0;
@@ -38,6 +41,9 @@ public class Main {
         }
         System.out.println("Suma numerelor pare de la 1 la 10 calculata cu while: " + sumaNrPareCalculataCuWhile);
 
+        //TODO
+        //Varianta DO WHILE
+
         //Sa se calculeze suma numerelor impare de la 0 la 10
         //Varianta cu FOR
         int sumaNrImpareCalculataCuFor = 0;
@@ -56,6 +62,10 @@ public class Main {
             l += 2;
         }
         System.out.println("Suma numerelor impare de la 1 la 10 calculata cu while: " + sumaNrImpareCalculataCuWhile);
+
+        //TODO
+        //Varianta DO WHILE
+
 
     }
 }

@@ -7,7 +7,7 @@ public class RecenzieFilm {
 
     @Override
     public String toString() {
-        return "Review{" +
+        return "Recenzie{" +
                 "descriere='" + descriere + '\'' +
                 ", numeCritic='" + numeCritic + '\'' +
                 ", notaRating=" + notaRating +
