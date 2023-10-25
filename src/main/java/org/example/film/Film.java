@@ -1,40 +1,40 @@
 package org.example.film;
 
-import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Film {
     private String nume;
     private ArrayList<String> listaActori;
-    private Review[] review;
+    private RecenzieFilm[] recenzieFilm;
 
-    public Film (String numeC,ArrayList<String> listaActoriC,Review[] reviewC){
-        this.nume = numeC;
-        this.listaActori = listaActoriC;
-        this.review = reviewC;
+    public Film(String numeFilm, ArrayList<String> listaActoriFilm, RecenzieFilm[] recenziiFilm) {
+        this.nume = numeFilm;
+        this.listaActori = listaActoriFilm;
+        this.recenzieFilm = recenziiFilm;
 
     }
 
     @Override
     public String toString() {
-        return "Film{" +
-                "nume='" + nume + '\'' +
-                ", listaActori=" + listaActori +
-                ", review=" + Arrays.toString(review) +
-                '}';
+        final StringBuilder sb = new StringBuilder("Film{");
+        sb.append("nume='").append(nume).append('\'');
+        sb.append(", listaActori=").append(listaActori);
+        sb.append(", recenzieFilm=").append(Arrays.toString(recenzieFilm));
+        sb.append('}');
+        return sb.toString();
     }
-    public void adaugaReview(Review review){
-        Review[] listaNoua = new Review[this.review.length + 1];
-        for (int i = 0; i < this.review.length; i++){
-            listaNoua[i] = this.review[i];
+
+    public void adaugaRecenzie(RecenzieFilm recenzieNoua) {
+        RecenzieFilm[] listaNoua = new RecenzieFilm[this.recenzieFilm.length + 1];
+        for (int i = 0; i < this.recenzieFilm.length; i++) {
+            listaNoua[i] = this.recenzieFilm[i];
         }
-
-        listaNoua[listaNoua.length - 1] = review;
-        this.review = listaNoua;
+        listaNoua[listaNoua.length - 1] = recenzieNoua;
+        this.recenzieFilm = listaNoua;
     }
-    public void adaugaActor(String numeActor){
-        this.listaActori.add(numeActor);
 
+    public void adaugaActor(String numeActor) {
+        this.listaActori.add(numeActor);
     }
 }
