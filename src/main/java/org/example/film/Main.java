@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         String numeFilm = "Oblevion";
         ArrayList<String> listaActoriFilm = new ArrayList<>();
-        listaActoriFilm.add("Tom Hardy");
+        listaActoriFilm.add("Tom hardy");
         listaActoriFilm.add("act2");
         listaActoriFilm.add("act3");
         RecenzieFilm[] vectorRecenziiFilm;
@@ -36,7 +36,7 @@ public class Main {
         listaActoriFilm2.add("Tom Hardy");
         listaActoriFilm2.add("Florin");
         listaActoriFilm2.add("Piersic");
-        Film film2 = new Film("Shrek", listaActoriFilm2, vectorRecenziiFilm2);
+        Film film2 = new Film("Oblevion", listaActoriFilm2, vectorRecenziiFilm2);
 
         Film[] listaFilme2 = new Film[]{film1, film2};
 
@@ -58,13 +58,27 @@ public class Main {
 
         //5
         //Sa se afiseze recenziile filmelor care au actorul X
+          System.out.println(Film.afisareRecenziiCuActorX("Tom Hardy", filme));
+          System.out.println("Recenzii film1" + film1.afisareRecenzii());
+
 
         //6
         //Sa se verifice si afiseze daca doua filme sunt identice
         //(doua filme sunt identice atunci cand au acelasi titlu si aceeasi actori)
+        System.out.println(film1.equals(film2));
+        Film film4 = new Film(numeFilm, listaActoriFilm, vectorRecenziiFilm);
+        System.out.println(film4.equals(film1));
+        //6.1
+        System.out.println(film1.equals(film2));
+
+
 
         //7
         //Pentru filmul 1 sa se modifice numele criticului pentru recenzia X
+        System.out.println(film1);
+        film1.modificaNumeActor("Nume nou", 2);
+        System.out.println(film1);
+
 
         //8
         //Pentru filmul 2 sa se modifice nota raitingului pentru recenzia X

@@ -5,6 +5,16 @@ public class RecenzieFilm {
     private String numeCritic;
     private double notaRating;
 
+    public void setNumeCritic(String numeCritic) {
+        this.numeCritic = numeCritic;
+    }
+
+    public double getNotaRating() {
+        return notaRating;
+
+
+    }
+
     @Override
     public String toString() {
         return "Recenzie{" +
@@ -20,8 +30,5 @@ public class RecenzieFilm {
         this.notaRating = notaRating;
     }
 
-    public double getNotaRating() {
-        return notaRating;
-    }
 
 }
