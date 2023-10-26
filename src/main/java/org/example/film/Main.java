@@ -11,7 +11,7 @@ public class Main {
         listaActoriFilm.add("act3");
         RecenzieFilm[] vectorRecenziiFilm;
         RecenzieFilm recenzie1 = new RecenzieFilm("descrev1", "Mircea", 10);
-        RecenzieFilm recenzie2 = new RecenzieFilm("descrev2", "Andrei", 9);
+        RecenzieFilm recenzie2 = new RecenzieFilm("descrev2", "Andrei", 9.5);
         vectorRecenziiFilm = new RecenzieFilm[]{recenzie1, recenzie2};
         Film film1 = new Film(numeFilm, listaActoriFilm, vectorRecenziiFilm);
         System.out.println(film1.toString());
