@@ -88,5 +88,7 @@ public class Main {
         System.out.println("Suma nr impare cu DO WHILE: " + sumaNrImpareCalculataCuDoWhile);
 
 
+
+
     }
 }
