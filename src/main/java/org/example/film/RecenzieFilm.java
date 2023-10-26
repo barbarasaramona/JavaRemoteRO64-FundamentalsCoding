@@ -19,4 +19,9 @@ public class RecenzieFilm {
         this.numeCritic = numeCritic;
         this.notaRating = notaRating;
     }
+
+    public double getNotaRating() {
+        return notaRating;
+    }
+
 }
