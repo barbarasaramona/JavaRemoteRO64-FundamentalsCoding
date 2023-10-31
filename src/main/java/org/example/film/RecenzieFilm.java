@@ -9,6 +9,10 @@ public class RecenzieFilm {
         this.numeCritic = numeCritic;
     }
 
+    public String getDescriere() {
+        return descriere;
+    }
+
     public double getNotaRating() {
         return notaRating;
 

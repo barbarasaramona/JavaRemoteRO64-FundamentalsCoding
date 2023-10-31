@@ -16,7 +16,9 @@ public class Film {
 
     }
 
-
+    public RecenzieFilm[] getListaRecenziiFilm() {
+        return listaRecenziiFilm;
+    }
 
     @Override
     public String toString() {
