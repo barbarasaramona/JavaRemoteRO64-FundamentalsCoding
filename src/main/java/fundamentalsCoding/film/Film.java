@@ -1,4 +1,4 @@
-package org.example.film;
+package fundamentalsCoding.film;
 
 import java.util.ArrayList;
 import java.util.Arrays;

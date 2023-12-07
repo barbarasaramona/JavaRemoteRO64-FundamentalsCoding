@@ -1,4 +1,4 @@
-package org.example.magazin;
+package fundamentalsCoding.magazin;
 
 public class Main {
 

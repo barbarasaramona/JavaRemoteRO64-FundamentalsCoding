@@ -1,4 +1,4 @@
-package org.example.film;
+package fundamentalsCoding.film;
 
 public class RecenzieFilm {
     private String descriere;

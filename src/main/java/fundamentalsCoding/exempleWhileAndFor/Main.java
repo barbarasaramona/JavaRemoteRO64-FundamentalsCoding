@@ -1,4 +1,4 @@
-package org.example.exempleWhileAndFor;
+package fundamentalsCoding.exempleWhileAndFor;
 
 public class Main {
     public static void main(String[] args) {

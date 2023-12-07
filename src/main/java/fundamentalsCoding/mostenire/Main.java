@@ -1,4 +1,4 @@
-package org.example.mostenire;
+package fundamentalsCoding.mostenire;
 
 public class Main {
     public static void main(String[] args) {
