@@ -1,0 +1,19 @@
+1) final VS finally VS finalized
+- final Keyword in Java
+
+Final is a keyword used in Java to restrict the modification of a variable, method, or class.
+When we declare a variable as final, its value cannot be changed. Similarly, when a method is declared as final,
+it cannot be overridden by any subclass.
+In Java, it is also possible to declare a class as final by using the final keyword to restrict the inheritance of the class.
+Final classes cannot be extended or inherited. If we try to inherit a final class, then the compiler throws an error during compilation.
+
+- finally keyword
+The finally keyword is used in Java try-catch blocks to specify a block of code that will be executed regardless
+of whether an exception is thrown or not. Since the finally block is guaranteed to be executed,
+even if an exception is thrown, so finally block is often used in the cleanup operations,
+such as closing open files and releasing the resources.
+
+- finalize Keyword in Java
+The finalize method is a special method that is called by the garbage collector when an object is about to be destroyed.
+The finalize() method can be used to perform any necessary cleanup operations before the object is destroyed.
+
