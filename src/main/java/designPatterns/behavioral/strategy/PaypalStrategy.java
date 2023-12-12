@@ -1,16 +1,16 @@
 package designPatterns.behavioral.strategy;
 
 public class PaypalStrategy implements PaymentStrategy{
-    private String emialId;
+    private String email;
     private String password;
 
-    public PaypalStrategy(String emialId, String password) {
-        this.emialId = emialId;
+    public PaypalStrategy(String email, String password) {
+        this.email = email;
         this.password = password;
     }
 
     @Override
     public void pay(int suma) {
-        System.out.println("Suma platita " + suma + " prin paypal");
+        System.out.println("Suma platita " + suma + " cu paypal");
     }
 }

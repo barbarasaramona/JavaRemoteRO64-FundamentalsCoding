@@ -5,10 +5,10 @@ public class Main {
         TV tv = new TV();
         State startState = new TVStartState();
         State stopState = new TVStopState();
-        tv.setTVState(startState);
+        tv.setTvState(startState);
         tv.doAction();
 
-        tv.setTVState(stopState);
+        tv.setTvState(stopState);
         tv.doAction();
     }
 }

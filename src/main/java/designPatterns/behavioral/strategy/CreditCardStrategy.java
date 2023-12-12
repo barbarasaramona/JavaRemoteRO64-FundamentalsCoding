@@ -2,7 +2,7 @@ package designPatterns.behavioral.strategy;
 
 public class CreditCardStrategy implements PaymentStrategy{
     private String name;
-    private String cardNumber;
+    private  String cardNumber;
     private String cvv;
     private String dateOfExpiry;
 
