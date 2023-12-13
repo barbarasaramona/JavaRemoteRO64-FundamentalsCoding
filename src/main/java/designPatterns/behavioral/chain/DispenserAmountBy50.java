@@ -1,4 +1,4 @@
-package designPatterns.chain;
+package designPatterns.behavioral.chain;
 
 public class DispenserAmountBy50 implements DispenserAmountChain{
     private DispenserAmountChain next;

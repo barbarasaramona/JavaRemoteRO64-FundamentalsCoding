@@ -1,14 +1,14 @@
-package designPatterns.chain;
+package designPatterns.behavioral.chain;
 
-public class DispenserAmountBy10 implements DispenserAmountChain{
+public class DispenserAmountBy20 implements DispenserAmountChain{
     private DispenserAmountChain next;
     @Override
     public void dispenceAmount(Currency currency) {
-        if (currency.getAmount() < 10){
+        if (currency.getAmount() < 20) {
             next.dispenceAmount(currency);
         } else {
-            System.out.println("Numar bancnote de 50: " + currency.getAmount() / 10);
-            int remainingAmount = currency.getAmount() % 10;
+            System.out.println("Numar bancnote de 50: " + currency.getAmount() / 20);
+            int remainingAmount = currency.getAmount() % 20;
             if (remainingAmount > 0) {
                 next.dispenceAmount(new Currency(remainingAmount));
             }

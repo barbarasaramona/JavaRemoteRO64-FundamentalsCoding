@@ -1,4 +1,4 @@
-package designPatterns.chain;
+package designPatterns.behavioral.chain;
 
 import java.util.Scanner;
 
