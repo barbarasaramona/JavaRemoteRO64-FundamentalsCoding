@@ -2,7 +2,7 @@ package designPatterns.behavioral.strategy;
 
 public class Main {
     public static void main(String[] args) {
-        ShopppingCart cosCumparaturi = new ShopppingCart();
+        ShoppingCart cosCumparaturi = new ShoppingCart();
         Item item1 = new Item("1001", 320);
         Item item2 = new Item("1002", 460);
 

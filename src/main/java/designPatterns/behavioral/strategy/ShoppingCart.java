@@ -13,11 +13,20 @@ public class ShoppingCart {
     }
     public int calculateTotal(){
         int totalPlata = 0;
-        for (int i = 0; i < items.size(); i ++){
+        int i = 0;
+        while (i < items.size()){
             totalPlata = totalPlata + items.get(i).getPrice();
+            i++;
         }
+//        for (Item item : items){
+//            totalPlata = totalPlata + item.getPrice();
+//        }
+//        for(int i = 0; i < items.size(); i++){
+//            totalPlata = totalPlata + items.get(i).getPrice();
+//        }
         return totalPlata;
     }
+
     public void pay(PaymentStrategy paymentStrategy){
         int suma = calculateTotal();
         paymentStrategy.pay(suma);
