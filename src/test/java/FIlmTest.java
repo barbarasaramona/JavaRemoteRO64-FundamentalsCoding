@@ -1,5 +1,5 @@
-import fundamentalsCoding.film.Film;
-import fundamentalsCoding.film.RecenzieFilm;
+import fundamentals_coding.film.Film;
+import fundamentals_coding.film.RecenzieFilm;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
