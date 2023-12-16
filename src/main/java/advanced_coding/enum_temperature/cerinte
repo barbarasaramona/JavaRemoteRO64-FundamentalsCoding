@@ -1,0 +1,15 @@
+Create the TemperatureConvert enum class with constants C_F , C_K , K_C ,
+F_C , F_K , K_F . Enum should adopt a constructor that includes three
+parameters:
+- input temperature unit
+- output temperature unit
+- the Converter interface instance (with a float convert(float tempIn)
+method) - the instance should define the necessary calculations for temperature conversion
+
+The TemperatureConvert enum class should adopt the static
+convertTemperature method which will include the following params:
+- input temperature unit
+- output temperature unit
+- value of the temperature
+This method should return the converted value. To find the right constant from set of enum values,
+use the values() method.
