@@ -11,13 +11,14 @@ public class Main {
         dispenserAmountChain50.setNextChain(dispenserAmountChain20);
         dispenserAmountChain20.setNextChain(dispenserAmountChain10);
 
+        System.out.print("Introduceti suma dorita: ");
         Scanner scanner = new Scanner(System.in);
         int amount = scanner.nextInt();
             if (amount % 10 != 0){
             System.out.println("Invalid amount");
         }else {
                 Currency currency = new Currency(amount);
-                dispenserAmountChain50.dispenceAmount(currency);
+                dispenserAmountChain50.dispenseAmount(currency);
             }
     }
 }

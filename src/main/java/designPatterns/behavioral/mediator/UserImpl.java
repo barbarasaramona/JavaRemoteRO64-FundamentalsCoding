@@ -1,4 +1,4 @@
-package designPatterns.mediator;
+package designPatterns.behavioral.mediator;
 
 public class UserImpl extends User{
 
