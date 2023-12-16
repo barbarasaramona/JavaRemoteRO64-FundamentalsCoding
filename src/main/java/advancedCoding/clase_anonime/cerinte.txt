@@ -1,4 +1,4 @@
-1)
+Task1)
 Creați clasa Car cu următoarele proprietăți:
 - price
 - type
@@ -14,7 +14,7 @@ Creați interfața Offer ce conține metoda: int getDiscount(Car car);.
 
 Creați clasa Dealership care se va ocupa cu aplicarea ofertelor pentru mașini.
 
-2)
+Task2)
 În clasa Dealership creați doua clase interne private care implementează Offer:
 - BrandOffer - calculează un discount în funcție de tipul mașinii:
         Mercedes: discount 5%;
@@ -46,7 +46,7 @@ De fiecare data cand se aplica o oferta asupra unui obiect de tip Car se va afis
 “Applying x discount : y ”, unde: x reprezinta oferta care a fost aplicata (Brand, Dealer, Client),
 y reprezinta discount-ul in % sau euro.
 
-3)
+Task3)
 Aăugați în clasa Dealership metoda void negotiate(Car car, Offer offer). Aceasta permite clientului să propună un discount.
 
 În metoda main apelați negotiate dând ca parametru oferta sub formă de clasă anonimă.
@@ -56,7 +56,7 @@ Pentru testare folositi urmatorul obiect Car:
 - Tip: Mercedes
 - An: 2019
 
-4)
+Task4)
 Testați folosirea expresiilor lambda pe următorul caz: pe o listă de obiecte de tip Car cu prețuri variate,
 eliminați toate mașinile care au prețul peste 25000.
 Afișați lista înainte și după modificare.
