@@ -8,11 +8,11 @@ Make sure that Basket does not expose it’s internal list storing products ( me
 not return a reference to it’s internal list but rather a copy ), all operations on that list
 should be done through Basket methods.
 
-2) Add some products to the Basket from exercise 11. Verify if everything works as expected.
+2) Add some products to the Basket from exercise 1. Verify if everything works as expected.
 
-3) Improve Basket from exercise 10 so that it also tracks quantity of a particular product
+3) Improve Basket from exercise 1 so that it also tracks quantity of a particular product
 and allows for increment or decrement by a specified amount.
 
-4) Create OrderService class that accepts instance of the Basket class from exercise 12 and
+4) Create OrderService class that accepts instance of the Basket class from exercise 3 and
 returns total price for all the items in the Basket that are available . Remember about
 quantity you will have to improve Basket class again . Use streams.
