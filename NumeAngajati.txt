@@ -1,0 +1,3 @@
+Andrei, 2000, 3
+Diana, 5000, 5
+Marius, 1000, 1
